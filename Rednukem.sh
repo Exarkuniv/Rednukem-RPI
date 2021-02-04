@@ -42,11 +42,9 @@ function install_Rednukem() {
 	
 function configure_Rednukem() {
 	mkdir "$home/.config/rednukem"
-	cp -v settings.cfg "$home/.config/nblood"
-	cp -v nblood.cfg "$home/.config/nblood"
 	
 	mkRomDir "ports/Rednukem"
 	
-	addPort "$md_id" "rednukem" "Rednukem - Blood source port" "$md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/Rednukem"	
+	addPort "$md_id" "rednukem" "Rednukem - Redneck Rampage source port" "$md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/Rednukem"	
 
 }
