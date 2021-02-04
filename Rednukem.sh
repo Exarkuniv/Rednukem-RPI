@@ -47,6 +47,6 @@ function configure_Rednukem() {
 	
 	mkRomDir "ports/Rednukem"
 	
-	addPort "$md_id" "rednukem" "Rednukem - Blood source port" "$md_inst/rednukem  -j=/home/pi/RetroPie/roms/ports/Rednukem"	
+	addPort "$md_id" "rednukem" "Rednukem - Blood source port" "$md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/Rednukem"	
 
 }
