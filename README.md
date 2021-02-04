@@ -1,7 +1,7 @@
 # Rednukem-RPI
 Redneck Rampage for Raspberry Pi
 
-![Rednukem-RPI](https://github.com/Exarkuniv/Nblood-RPI/blob/Master/Screenshots/blood-1.png)
+![Rednukem-RPI](https://github.com/Exarkuniv/Nblood-RPI/blob/Master/Screenshots/Rednukem.jpg)
 
 Thanks to Nuke.YKT source port of Redneck Rampage it is possible to build and install Redneck Rampage 
 on Raspberry Pi and RetroPie
