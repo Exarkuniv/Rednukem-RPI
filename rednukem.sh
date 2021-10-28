@@ -29,7 +29,7 @@ function sources_rednukem() {
 
 function build_rednukem() {
     cd $md_build/Rednukem
-   make rr
+   make rr USE_OPENGL=0 POLYMER=0 STARTUP_WINDOW=0
 	md_ret_require="$md_build"
 }
 
