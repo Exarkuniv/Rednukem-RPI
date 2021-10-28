@@ -19,7 +19,7 @@ rp_module_flags=""
 
 
 function depends_rednukem() {
-   getDepends cmake build-essential build-essential nasm libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev libsdl-mixer1.2-dev libsdl2-dev libsdl2-mixer-dev flac libflac-dev libvorbis-dev libvpx-dev libgtk2.0-dev freepats
+   getDepends cmake xorg matchbox-window-manager x11-xserver-utils xinit build-essential build-essential nasm libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev libsdl-mixer1.2-dev libsdl2-dev libsdl2-mixer-dev flac libflac-dev libvorbis-dev libvpx-dev libgtk2.0-dev freepats
   
 }
 
