@@ -21,4 +21,4 @@ For support and help you can contact me here or on RetroPie forums.
 
 To install
 
-`wget https://raw.githubusercontent.com/Exarkuniv/Rednukem-RPI/Master/Rednukem.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
+`wget https://raw.githubusercontent.com/Exarkuniv/Rednukem-RPI/Master/rednukem.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
