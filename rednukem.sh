@@ -10,7 +10,7 @@
 #
 
 rp_module_id="rednukem"
-rp_module_desc="Rednukem - Blood source port"
+rp_module_desc="Rednukem - Redneck Rampage source port"
 rp_module_licence="GPL3 https://github.com/OpenMW/osg/blob/3.4/LICENSE.txt"
 rp_module_help="you need to put the REDNECK.GRP, REDNECK.RTS, optionally CD audio tracks as OGG file in the format trackXX.ogg (where XX is the track number)
 $romdir/ports/Nblood"
