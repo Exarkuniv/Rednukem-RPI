@@ -9,7 +9,7 @@
 # at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
 #
 
-rp_module_id="Rednukem"
+rp_module_id="rednukem"
 rp_module_desc="Rednukem - Blood source port"
 rp_module_licence="GPL3 https://github.com/OpenMW/osg/blob/3.4/LICENSE.txt"
 rp_module_help="you need to put the REDNECK.GRP, REDNECK.RTS, optionally CD audio tracks as OGG file in the format trackXX.ogg (where XX is the track number)
@@ -18,33 +18,33 @@ rp_module_section="exp"
 rp_module_flags=""
 
 
-function depends_Rednukem() {
+function depends_rednukem() {
    getDepends cmake build-essential build-essential nasm libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev libsdl-mixer1.2-dev libsdl2-dev libsdl2-mixer-dev flac libflac-dev libvorbis-dev libvpx-dev libgtk2.0-dev freepats
   
 }
 
-function sources_Rednukem() {
+function sources_rednukem() {
 	gitPullOrClone "$md_build" https://github.com/Exarkuniv/NBlood.git
 }
 
-function build_Rednukem() {
+function build_rednukem() {
     cd $md_build/Rednukem
    make rr
 	md_ret_require="$md_build"
 }
 
-function install_Rednukem() {
+function install_rednukem() {
     md_ret_files=(        
         'rednukem'
 		'nblood.pk3'
     )
 }
 	
-function configure_Rednukem() {
+function configure_rednukem() {
 	mkdir "$home/.config/rednukem"
 	
 	mkRomDir "ports/Rednukem"
 	
-	addPort "$md_id" "rednukem" "Rednukem - Redneck Rampage source port" "XINIT:$md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/Rednukem"	
+	addPort "$md_id" "rednukem" "Rednukem - Redneck Rampage source port" "XINIT: $md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/Rednukem"	
 
 }
