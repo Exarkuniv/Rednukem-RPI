@@ -49,6 +49,6 @@ function configure_rednukem() {
 	
 	mkRomDir "ports/rednukem"
 	
-	addPort "$md_id" "rednukem" "Rednukem - Redneck Rampage source port" "$md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/rednukem"	
+	addPort "$md_id" "rednukem" "Rednukem - Redneck Rampage source port" "XINIT: $md_inst/rednukem  -j /home/pi/RetroPie/roms/ports/rednukem"	
 
 }
