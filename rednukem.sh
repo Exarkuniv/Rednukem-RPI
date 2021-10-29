@@ -37,11 +37,15 @@ function install_rednukem() {
     md_ret_files=(        
         'rednukem'
 		'nblood.pk3'
+		'rednukem.cfg'
     )
 }
 	
 function configure_rednukem() {
 	mkdir "$home/.config/rednukem"
+	
+	cp -v nblood.cfg "$home/.config/rednukem.cfg"
+	chown -R pi:pi "$home/.config/rednukem"
 	
 	mkRomDir "ports/rednukem"
 	
