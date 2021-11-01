@@ -44,7 +44,7 @@ function install_rednukem() {
 function configure_rednukem() {
 	mkdir "$home/.config/rednukem"
 	
-	cp -v nblood.cfg "$home/.config/rednukem.cfg"
+	cp -v rednukem.cfg "$home/.config/rednukem"
 	chown -R pi:pi "$home/.config/rednukem"
 	
 	mkRomDir "ports/rednukem"
